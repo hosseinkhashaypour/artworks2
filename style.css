@@ -38,9 +38,8 @@ body {
 /* mobile first design  */
 @media (min-width:300px) {
     body {
-        overflow: hidden;
+        overflow-x: hidden;
     }
-
     #ui {
         margin-top: -7px;
     }
@@ -103,9 +102,45 @@ body {
     .hrefc {
         color: var(--color5);
     }
+.tozihat{
+    display: block;
+    justify-content: center;
+    font-family: irs;
+}
+.tozihat p {
+    color: white;
+    font-family: irs;
+}
+.hello-to-people{
+    text-align: center;
+    font-family: irs;
+    font-size: xx-large;
+}
+.tozihat-koli{
+    color: white;
+    font-family: irs;
+    text-align: justify;
+}
+.my-artworks{
+    color: white;
+    font-family: irs;
+    text-align: justify;
+}
+.socialmedia{
+ color: white;
+ font-family: irs;
+ text-align: center;
+}
+.ig-logo{
+    width: 70px;
 
 }
-
+.tg-icon{width: 80px;}
+#icon-socialmedias{
+    display: flex;
+    justify-content: center;
+}
+}
 @keyframes spin {
     0% {
       border-color: white;
@@ -123,4 +158,3 @@ body {
         border-color: var(--color2);
     }
   }
-  
